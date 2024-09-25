@@ -1,3 +1,4 @@
+
 .square {
     width: 990px;
     height: 500px;
@@ -57,6 +58,9 @@
     border-style: solid;
 
 }
+
+::placeholder{ color: rgb(164, 235, 140);}
+
 
 #but2 {
     width: 100px;
