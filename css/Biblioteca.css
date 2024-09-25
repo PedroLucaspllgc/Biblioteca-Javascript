@@ -2,18 +2,34 @@
     width: 990px;
     height: 500px;
     position: fixed;
-    top: 0%;
-    left: -0%;
+    top: -1%;
+    left: -0.6%;
     background-color: #BAFFC0;
     border-color: #5FA626;
     border-style: solid;
     border-radius: 40px;
+    overflow:auto;
+    font-size: 14px;
+    font-family: 10px;
+    margin: 10px;
+    line-height: 100%;
+    display: grid;
+    grid-template-columns: 100px;
+    padding: 10px;
 
 }
 
+.grid-item {
+    background-color: #BAFFC0;
+    border: 1px solid #5FA626;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
 .square2 {
-    width: 530px;
-    height: 500px;
+    width: 510px;
+    height: 525px;
     position: fixed;
     top: 0%;
     right: 0%;
@@ -21,6 +37,8 @@
     border-color: #5FA626;
     border-style: solid;
     border-radius: 40px;
+    overflow: auto;
+    font-size: 50px;
 }
 
 #but {
