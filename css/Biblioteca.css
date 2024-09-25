@@ -1,0 +1,58 @@
+.square {
+    width: 990px;
+    height: 500px;
+    position: fixed;
+    top: 0%;
+    left: -0%;
+    background-color: #BAFFC0;
+    border-color: #5FA626;
+    border-style: solid;
+    border-radius: 40px;
+
+}
+
+.square2 {
+    width: 530px;
+    height: 500px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: #BAFFC0;
+    border-color: #5FA626;
+    border-style: solid;
+    border-radius: 40px;
+}
+
+#but {
+    width: 100px;
+    height: 50px;
+    background-color: #BAFFC0;
+    border-radius: 40px;
+    position: fixed;
+    left: 14%;
+    bottom: 21%;
+    text-align: center;
+    line-height: 200%;
+    color: #5FA626;
+    border-color: #5FA626;
+    font-size: larger;
+    border-style: solid;
+
+}
+
+#but2 {
+    width: 100px;
+    height: 50px;
+    background-color: #BAFFC0;
+    border-radius: 40px;
+    position: fixed;
+    left: 40.5%;
+    bottom: 21%;
+    text-align: center;
+    line-height: 200%;
+    color: #5FA626;
+    border-color: #5FA626;
+    font-size: larger;
+    border-style: solid;
+
+}
