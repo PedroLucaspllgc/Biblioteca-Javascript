@@ -1,0 +1,32 @@
+.titulo {    
+    color: #5fa626;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Lucida Handwriting ;
+    font-size: 50px; 
+    line-height: 100%;
+    position:fixed;
+    z-index: 1;
+    text-align: center;
+    top: 40px;
+    left: 45%;
+    align-items: center;}
+
+.coisa1 {
+    background-color: #53812c;
+    border-radius: 40px;
+    width: 300px;
+    height: 60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5fa626;
+    top: 500px;
+    left: 40%;
+    color: #5fa626;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Lucida Handwriting ;
+    font-size: 50px; 
+    line-height: 100%;
+    position:fixed;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+
+}
