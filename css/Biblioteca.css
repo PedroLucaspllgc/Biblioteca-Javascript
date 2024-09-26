@@ -5,10 +5,10 @@
     top: -1%;
     left: -0.6%;
     background-color: #BAFFC0;
-    border-color: #5FA626;
+    border-color: #774342;
     border-style: solid;
     border-radius: 40px;
-    overflow:auto;
+    overflow: auto;
     font-size: 14px;
     font-family: 10px;
     margin: 10px;
@@ -16,15 +16,19 @@
     display: grid;
     grid-template-columns: 100 100 100px;
     padding: 10px;
+    scrollbar-width: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .grid-item {
     background-color: #BAFFC0;
-    border: 1px solid #5FA626;
+    border: 1px solid #774342;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    border-radius: 40px;
+    z-index: 2;
     
   }
 
@@ -35,11 +39,14 @@
     top: 0%;
     right: 0%;
     background-color: #BAFFC0;
-    border-color: #5FA626;
+    border-color: #774342;
     border-style: solid;
     border-radius: 40px;
     overflow: auto;
     font-size: 50px;
+    overflow-y: auto;
+    scrollbar-width: none;
+
 }
 
 #but {
@@ -49,13 +56,14 @@
     border-radius: 40px;
     position: fixed;
     left: 14%;
-    bottom: 21%;
+    bottom: 18%;
     text-align: center;
     line-height: 200%;
-    color: #5FA626;
-    border-color: #5FA626;
+    color: #774342;
+    border-color: #774342;
     font-size: larger;
     border-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -66,12 +74,26 @@
     border-radius: 40px;
     position: fixed;
     left: 40.5%;
-    bottom: 21%;
+    bottom: 18%;
     text-align: center;
     line-height: 200%;
-    color: #5FA626;
-    border-color: #5FA626;
+    color: #774342;
+    border-color: #774342;
     font-size: larger;
     border-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+.textolol{
+    text-align: center;
+    line-height: 200%;
+    color: #774342;
+    border-color: #774342;
+    font-size: larger;
+    border-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 50px;
+    top: 0px;
+    z-index: 2;
 }
