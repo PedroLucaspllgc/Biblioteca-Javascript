@@ -1,6 +1,6 @@
 let lista = []
 
-document.getElementById('butA').addEventListener('click', function() {
+document.getElementById('but').addEventListener('click', function() {
 
     const titulo = document.createElement('input');
     titulo.type = 'text';
@@ -28,7 +28,7 @@ document.getElementById('butA').addEventListener('click', function() {
 
     const confirmar = document.createElement('button');
     confirmar.type = "button";
-    confirmar.id = confirmar;
+    confirmar.id = 'confirmar';
     confirmar.onclick = function(){
         let ti = document.getElementById('titulo').value;
         let au = document.getElementById('autor').value;
@@ -41,17 +41,17 @@ document.getElementById('butA').addEventListener('click', function() {
         document.getElementById(ge).value = ''
     }
 
-    document.getElementById(square).appendChild(titulo);
-    document.getElementById(square).appendChild(autor);
-    document.getElementById(square).appendChild(ano);
-    document.getElementById(square).appendChild(genero);
+    document.getElementById(square2).appendChild(titulo);
+    document.getElementById(square2).appendChild(autor);
+    document.getElementById(square2).appendChild(ano);
+    document.getElementById(square2).appendChild(genero);
 
 
 })
 
-document.getElementById(butR).addEventListener('click', function(){
+document.getElementById("but2").addEventListener('click', function(){
 
-    document.getElementById(square).innerHTML = ""
+    document.getElementById(square2).innerHTML = ""
 
     const um = document.createElement('input');
     um.type = 'text';
@@ -72,25 +72,25 @@ document.getElementById(butR).addEventListener('click', function(){
             num = lista.indexOf(inf)
             lista.splice(num, 4)
             console.log(num,num+4)
-            document.getElementById('butR').innerText = 'Livro foi excluído da tabela.'
+            document.getElementById('but2').innerText = 'Livro foi excluído da tabela.'
         }
         else {
-            document.getElementById('butR').innerText = 'Livro não foi encontrado.'
+            document.getElementById('but2').innerText = 'Livro não foi encontrado.'
         }
     }        
      
-    document.getElementById('square').appendChild('um')
-    document.getElementById('square').appendChild('conf')
-    document.getElementById('square').appendChild('qual')
+    document.getElementById('square2').appendChild('um')
+    document.getElementById('square2').appendChild('conf')
+    document.getElementById('square2').appendChild('qual')
 
-    document.getElementById('mostrar').addEventListener('click', function(){
+    document.getElementById('but3').addEventListener('click', function(){
 
-        document.getElementById('squar       ').innerHTML = ''
+        document.getElementById('square2').innerHTML = ''
     
         const grid = document.createElement('div');
         grid.className='grid';
         grid.id = 'grid'
-        document.getElementById('squar       ').appendChild(grid); 
+        document.getElementById('square2').appendChild(grid); 
         let i, len, text;
         for (let i = 0, len = lista.length, text = ''; i < len; i++) {
             let g = document.createElement('div');
@@ -99,5 +99,5 @@ document.getElementById(butR).addEventListener('click', function(){
             document.getElementById('grid').appendChild(g);
          }})
 
-
+        
 })
