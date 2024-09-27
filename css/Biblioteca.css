@@ -85,6 +85,24 @@
 
 }
 
+#but3 {
+    width: 100px;
+    height: 50px;
+    background-color: #BAFFC0;
+    border-radius: 40px;
+    position: fixed;
+    left: 28%;
+    bottom: 18%;
+    text-align: center;
+    line-height: 200%;
+    color: #774342;
+    border-color: #774342;
+    font-size: larger;
+    border-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 .textolol{
     text-align: center;
     line-height: 200%;
