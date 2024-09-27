@@ -6,8 +6,8 @@
     position:fixed;
     z-index: 1;
     text-align: center;
-    top: 40px;
-    left: 45%;
+    top: 10%;
+    left: 37.5%;
     align-items: center;}
 
 .coisa1 {
@@ -18,7 +18,7 @@
     border-width: 5px;
     border-style: solid;
     border-color: #5fa626;
-    top: 500px;
+    top: 60%;
     left: 40%;
     color: #7dc741;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Lucida Handwriting ;
